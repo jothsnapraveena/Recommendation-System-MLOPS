@@ -1,8 +1,7 @@
 recommendation/
 MLOPS_Project_2.egg-info/
-artifacts/
 artifacts/raw/
 artifacts/processed/
-artifacts/model
+artifacts/model/
 artifacts/weights/
 artifacts/model_checkpoint/
