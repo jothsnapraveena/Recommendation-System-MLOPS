@@ -1,0 +1,67 @@
+2025-03-18 18:54:02,024 - INFO - DataProcessing Initialized
+2025-03-18 18:54:02,024 - ERROR - Error loading data: [Errno 22] Invalid argument: 'artifacts\raw\x07nimelist.csv'
+2025-03-18 18:54:02,024 - ERROR - Error in data processing: Error inD:\Recommedation_Mlops\src\data_processing.py:,line 34 :Error loading data
+2025-03-18 19:02:50,265 - INFO - DataProcessing Initialized
+2025-03-18 19:02:50,270 - ERROR - Error loading data: [Errno 22] Invalid argument: 'artifacts\raw\x07nimelist.csv'
+2025-03-18 19:02:50,270 - ERROR - Error in data processing: Error inD:\Recommedation_Mlops\src\data_processing.py:,line 34 :Error loading data
+2025-03-18 19:04:20,513 - INFO - DataProcessing Initialized
+2025-03-18 19:04:23,333 - INFO - Data loaded successfully
+2025-03-18 19:04:23,680 - INFO - Users with more than 400 ratings filtered successfully
+2025-03-18 19:04:28,478 - INFO - Ratings scaled successfully
+2025-03-18 19:04:29,029 - INFO - Data encoded successfully
+2025-03-18 19:04:30,481 - INFO - Data split successfully
+2025-03-18 19:04:30,979 - ERROR - Error processing anime data: Usecols do not match columns, columns expected but not found: ['synopsis']
+2025-03-18 19:04:30,979 - ERROR - Error in data processing: Error inD:\Recommedation_Mlops\src\data_processing.py:,line 125 :Error processing anime data
+2025-03-18 19:04:40,330 - INFO - DataProcessing Initialized
+2025-03-18 19:04:42,362 - INFO - Data loaded successfully
+2025-03-18 19:04:42,668 - INFO - Users with more than 400 ratings filtered successfully
+2025-03-18 19:04:45,667 - INFO - Ratings scaled successfully
+2025-03-18 19:04:45,923 - INFO - Data encoded successfully
+2025-03-18 19:04:46,710 - INFO - Data split successfully
+2025-03-18 19:04:46,964 - ERROR - Error processing anime data: Usecols do not match columns, columns expected but not found: ['synopsis']
+2025-03-18 19:04:46,964 - ERROR - Error in data processing: Error inD:\Recommedation_Mlops\src\data_processing.py:,line 125 :Error processing anime data
+2025-03-18 19:06:49,292 - INFO - DataProcessing Initialized
+2025-03-18 19:06:52,184 - INFO - Data loaded successfully
+2025-03-18 19:06:52,536 - INFO - Users with more than 400 ratings filtered successfully
+2025-03-18 19:06:55,921 - INFO - Ratings scaled successfully
+2025-03-18 19:06:56,392 - INFO - Data encoded successfully
+2025-03-18 19:06:57,548 - INFO - Data split successfully
+2025-03-18 19:07:23,259 - INFO - Anime and Synopsis df data processed successfully
+2025-03-18 19:07:23,317 - INFO - user2user_encoded artifact saved successfully
+2025-03-18 19:07:23,369 - INFO - user2user_decoded artifact saved successfully
+2025-03-18 19:07:23,615 - INFO - anime2anime_encoded artifact saved successfully
+2025-03-18 19:07:23,810 - INFO - anime2anime_decoded artifact saved successfully
+2025-03-18 19:07:39,284 - INFO - Artifacts saved successfully
+2025-03-18 19:07:39,284 - INFO - Data processing completed successfully
+2025-03-18 19:45:51,505 - INFO - Model Training & COMET ML initialized..
+2025-03-18 19:45:51,821 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-18 19:45:51,872 - ERROR - [Errno 2] No such file or directory: 'artifacts/processed/anim2anime_encoded.pkl'
+2025-03-18 19:48:09,933 - INFO - Model Training & COMET ML initialized..
+2025-03-18 19:48:10,091 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-18 19:48:10,210 - INFO - Succesfully read the YAML file
+2025-03-18 19:48:10,212 - INFO - Loaded configuration from config.yaml
+2025-03-18 19:48:10,518 - INFO - Model created sucesfully....
+2025-03-18 19:53:48,884 - INFO - Model training Completedd.....
+2025-03-18 19:53:48,885 - ERROR - CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-03-18 19:55:57,756 - INFO - Model Training & COMET ML initialized..
+2025-03-18 19:55:57,854 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-18 19:55:57,936 - INFO - Succesfully read the YAML file
+2025-03-18 19:55:57,936 - INFO - Loaded configuration from config.yaml
+2025-03-18 19:55:58,154 - INFO - Model created sucesfully....
+2025-03-18 19:58:01,688 - INFO - Model training Completedd.....
+2025-03-18 19:58:01,688 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-18 19:58:01,917 - INFO - Model saved to artifacts/model\model.h5
+2025-03-18 19:58:01,935 - INFO - Extracting weights for user_embedding
+2025-03-18 19:58:01,959 - INFO - Extracting weights for anime_embedding
+2025-03-18 19:58:01,989 - INFO - User and Anime weights saved sucesfully....
+2025-03-18 20:33:10,805 - INFO - Model Training & COMET ML initialized..
+2025-03-18 20:33:11,109 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-18 20:33:11,267 - INFO - Succesfully read the YAML file
+2025-03-18 20:33:11,268 - INFO - Loaded configuration from config.yaml
+2025-03-18 20:33:13,238 - INFO - Model created sucesfully....
+2025-03-18 20:34:53,399 - INFO - Model training Completedd.....
+2025-03-18 20:34:53,400 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-18 20:34:53,555 - INFO - Model saved to artifacts/model\model.h5
+2025-03-18 20:34:53,565 - INFO - Extracting weights for user_embedding
+2025-03-18 20:34:53,607 - INFO - Extracting weights for anime_embedding
+2025-03-18 20:34:53,790 - INFO - User and Anime weights saved sucesfully....

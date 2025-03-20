@@ -1,0 +1,8 @@
+2025-03-17 20:07:09,476 - INFO - Succesfully read the YAML file
+2025-03-17 20:07:09,476 - INFO - Dat Ingestion started
+2025-03-17 20:07:09,476 - INFO - Starting Data ingestion
+2025-03-17 20:07:10,663 - INFO - Downloading other two small files
+2025-03-17 20:07:11,084 - INFO - Downloading other two small files
+2025-03-17 20:08:47,232 - INFO - Large file detected only donwloading 5M rows
+2025-03-17 20:08:47,297 - INFO - Data ingestion completed successfully
+2025-03-17 20:08:47,297 - INFO - Data Ingestion Done....
