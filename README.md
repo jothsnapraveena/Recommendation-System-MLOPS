@@ -1,4 +1,4 @@
-🎯 Neural Collaborative Filtering Recommendation System (MLOps with GCP, Jenkins, DVC, Docker, Flask)
+Neural Collaborative Filtering Recommendation System (MLOps with GCP, Jenkins, DVC, Docker, Flask)
 This project implements a Neural Collaborative Filtering (NCF)-based recommendation system using a full MLOps pipeline, powered by:
 
 Google Cloud Platform (GCP): Buckets, GKE (Google Kubernetes Engine)
