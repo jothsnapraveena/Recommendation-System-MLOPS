@@ -29,7 +29,7 @@ class DataIngestion:
                 if file_name=="animelist.csv":
                     blob = bucket.blob(file_name)
                     blob.download_to_filename(file_path)
-                    data=pd.read_csv(file_path,nrows=5000000)
+                    data=pd.read_csv(file_path,nrows=500)
                     data.to_csv(file_path,index=False)
                     logger.info("Large file detected only donwloading 5M rows")
 
