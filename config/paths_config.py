@@ -12,9 +12,9 @@ CONFIG_PATH = os.path.join("config", "config.yaml")
 ####### DATA PROCESSING ###########
 
 PROCESSED_DIR="artifacts/processed"
-ANIMELIST_CSV=r"artifacts\raw\animelist.csv"
-ANIME_CSV=r"artifacts\raw\anime.csv"
-ANIME_SYNOPSIS=r"artifacts\raw\anime_with_synopsis.csv"
+ANIMELIST_CSV=os.path.join(RAW_DIR,"animelist.csv")  
+ANIME_CSV=os.path.join(RAW_DIR,"anime.csv")       
+ANIME_SYNOPSIS=os.path.join(RAW_DIR,"anime_with_synopsis.csv")  
 X_TRAIN_ARRAY=os.path.join(PROCESSED_DIR,"X_train_array.pkl")
 X_TEST_ARRAY=os.path.join(PROCESSED_DIR,"X_test_array.pkl")
 Y_TRAIN=os.path.join(PROCESSED_DIR,"y_train.pkl")
