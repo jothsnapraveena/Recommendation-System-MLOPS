@@ -71,6 +71,24 @@ pipeline {
             }
         }
 
+        stage('Run Training in Docker') {
+            steps {
+                withCredentials([file(credentialsId: 'gcp-key-anime', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
+                    script {
+                        echo 'Running container for training...'
+                        sh '''
+                        docker run --rm \
+                        -v $GOOGLE_APPLICATION_CREDENTIALS:/app/key.json \
+                        -e GOOGLE_APPLICATION_CREDENTIALS=/app/key.json \
+                        gcr.io/${GCP_PROJECT}/ml-project:latest \
+                        python pipeline/training_pipeline.py
+                        '''
+                    }
+                }
+            }
+        }
+
+
     
         stage('Deploying to Kubernetes'){
             steps{
